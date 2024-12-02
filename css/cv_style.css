@@ -97,7 +97,8 @@ h1 {
     margin-top: 0%;
 }
 .four-col {
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     justify-content: space-evenly;
     padding: 100px;
 }
