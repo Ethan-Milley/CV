@@ -57,7 +57,7 @@ h1 {
 .two-col {
     display: grid;
     grid-template-columns: 50% 50%;
-    align-content: center;
+    align-items: center;
 }
 #introInfo {
     display: flex;
@@ -88,6 +88,7 @@ h1 {
 
 .about {
     background-color: #00A3AD;
+    display: grid;
 }
 
 .about h2 {
