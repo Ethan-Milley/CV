@@ -57,6 +57,7 @@ h1 {
 .two-col {
     display: grid;
     grid-template-columns: 50% 50%;
+    align-content: center;
 }
 #introInfo {
     display: flex;
@@ -99,10 +100,6 @@ h1 {
     justify-content: space-evenly;
 }
 
-.four-col div {
-    margin: 10px;
-}
-
 .dot {
     height: 50px;
     width: 50px;
@@ -115,10 +112,6 @@ h1 {
     color: #000000;
     font-family: 'Merriweather', serif;
     font-size: 20px;
-}
-
-.dot a :hover {
-    color: #00A3AD;
 }
 
 .info {
