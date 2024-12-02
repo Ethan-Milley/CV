@@ -60,7 +60,6 @@ h1 {
 .two-col {
     display: grid;
     grid-template-columns: 50% 50%;
-    justify-content: space-evenly;
 }
 .intro .container {
     display: grid;
@@ -105,18 +104,14 @@ h1 {
     border-width: 2px;
     border-color: #000000;
     background-color: #9EA2A2;
+    padding: 100%;
+    margin: 0%;
 }
 
 .dot :hover {
     background-color: #FFFFFF;
     transition: 1s;
 }
-
-.dot a {
-    padding: 100%;
-    margin: 0%;
-}
-
 
 .info {
   background-color: white; 
