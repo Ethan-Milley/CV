@@ -94,12 +94,7 @@ h1 {
     margin-top: 0%;
 }
 .four-col {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: space-evenly;
-    align-items: center;
-    justify-items: center;
-    padding-bottom: 5%;
+    display: flex;
 }
 
 .dot {
