@@ -52,6 +52,7 @@ h1 {
     color: black;
     padding: 20px;
     font-family: 'Merriweather', serif;
+    text-align: center;
 }
 .two-col {
     display: grid;
@@ -95,9 +96,7 @@ h1 {
 }
 .four-col {
     display: flex;
-    justify-content: space-around;
     justify-content: space-evenly;
-    justify-content: center;
 }
 
 .dot {
@@ -108,10 +107,20 @@ h1 {
     background-color: #9EA2A2;
     padding: 50px;
     margin: 0%;
+    text-align: center;
+    color: #000000;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
 }
 
 .dot :hover {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
     background-color: #FFFFFF;
+    padding: 50px;
+    margin: 0%;
     transition: 1s;
 }
 
