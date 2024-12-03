@@ -90,10 +90,9 @@ h1 {
     background-color: #00A3AD;
     display: grid;
 }
-
-.about video {
-    display: block;
-    margin: 0 auto;
+.video {
+    display: flex;
+    justify-items: center;
 }
 
 .about h2 {
