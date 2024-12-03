@@ -91,6 +91,11 @@ h1 {
     display: grid;
 }
 
+.about video {
+    display: block;
+    margin: 0 auto;
+}
+
 .about h2 {
     padding-top: 5%;
     padding-bottom: 3%;
