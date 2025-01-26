@@ -100,7 +100,7 @@ h1 {
     padding-bottom: 3%;
     margin-top: 0%;
 }
-.four-col {
+.three-col {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-content: space-evenly;
