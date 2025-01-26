@@ -92,7 +92,7 @@ h1 {
 }
 .video {
     display: flex;
-    justify-items: center;
+    justify-content: center;
 }
 
 .about h2 {
